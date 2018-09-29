@@ -10,7 +10,7 @@ COPY scripts/start.sh /usr/local/bin/start.sh
 
 # Add repos
 RUN apk update \
-  && apk add php5 php5-phar php5-curl php5-fpm php5-json php5-zlib php5-xml php5-xmlreader php5-xsl php5-dom php5-zip php5-iconv \
+  && apk add bash php5 php5-phar php5-curl php5-fpm php5-json php5-zlib php5-xml php5-xmlreader php5-xsl php5-dom php5-zip php5-iconv \
   php5-pdo php5-pdo_mysql php5-mysqli php5-pdo_sqlite php5-pdo_pgsql \
   php5-gd php5-mcrypt php5-openssl php5-sockets php5-posix php5-ldap \
   php5-apcu php5-intl php5-gmp curl supervisor openssl \
